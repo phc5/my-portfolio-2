@@ -1,6 +1,47 @@
 body {
-	font-family: Helvetica;
+	font-family: 'Helvetica';
 }
+
+h3 {
+	font-size: 1.5em;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+
+h2 {
+	font-weight: 200;
+}
+
+
+footer {
+	max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+footer p {
+	margin: 0;
+	color: #979797;
+    line-height: 1.5;
+}
+
+footer a {
+	color: #979797;
+}
+
+footer a:hover {
+	color: #373737;
+}
+
+
+.education-content h4 {
+	margin-bottom: 0;
+}
+
+.education-content p {
+	margin-top: 0;
+}
+
 .container {
 	max-width: 1024px;
     margin-left: auto;
@@ -13,6 +54,7 @@ body {
     color: #373737;
     font-weight: 100;
     font-size: .9em;
+    text-transform: uppercase;
 }
 
 .site-wide {
@@ -21,10 +63,6 @@ body {
 
 .header-content {
 	margin: 0 0 4em 0;
-}
-
-h2 {
-	font-weight: 200;
 }
 
 .content-container {
@@ -55,18 +93,7 @@ h2 {
 }
 }
 
-h3 {
-	font-size: 1.5em;
-	font-weight: 700;
-}
 
-.education-content h4 {
-	margin-bottom: 0;
-}
-
-.education-content p {
-	margin-top: 0;
-}
 
 .education-date {
 	font-size: 12px;
@@ -85,24 +112,4 @@ h3 {
 .projects-description:hover {
 	color: black;
 	cursor:pointer;
-}
-
-footer {
-	max-width: 1024px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-footer p {
-	margin: 0;
-	color: #979797;
-    line-height: 1.5;
-}
-
-footer a {
-	color: #979797;
-}
-
-footer a:hover {
-	color: #373737;
 }
