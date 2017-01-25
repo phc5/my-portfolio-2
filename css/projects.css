@@ -1,0 +1,39 @@
+ul {
+	padding-left: 0;
+}
+
+.github {
+	color: black;
+}
+
+.github:hover {
+	color: #33348e;
+}
+
+.project {
+	list-style: none;
+	margin-bottom: 3em;
+}
+
+.project-img {
+	height: 300px;
+}
+
+.project-title {
+	font-size: 2em;
+	margin: 0;
+}
+
+.description {
+	margin: 0;
+	font-size: 1.5em;
+	color: #979797;
+}
+
+.tech {
+	font-size: 1em;
+}
+
+.project-content {
+	line-height: 1.5;
+}
